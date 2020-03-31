@@ -1,0 +1,32 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
+
+ <%= link_to "Coffee-Q", root_path, class: "navbar-brand" %>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+
+      <li class="nav-item">
+        <%= link_to "About", coffeeq_about_path, class: "nav-link" %>
+      </li>
+      <li class="nav-item">
+       <%= link_to "Menu", coffeeq_menu_path, class: "nav-link" %>
+      </li>
+       <li class="nav-item">
+         <%= link_to "Contact Us", bookings_new_path, class: "nav-link" %>
+      </li>
+       <li class="nav-item">
+        <%= link_to "Schedule Appointment", meetings_path, class: "nav-link" %>
+      </li>
+       <li class="nav-item">
+        <%= link_to "Admin Login", root_path, class: "nav-link" %>
+      </li>
+
+    </ul>
+
+  </div>
+</nav>
